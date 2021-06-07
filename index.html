@@ -1,0 +1,76 @@
+<Doctype.!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>THE MUSIC MAKERS</title>
+	
+
+</head>
+<body>
+	<div class="nav-links">
+		<nav>
+			<ul class="links">
+				<li><a href="#">Home</a>< /li>
+				<li><a href="#">About</a>< /li>
+				<li><a href="#">Playlist</a>< /li>
+				<li><a href="#">Tickets</a>< /li>
+				
+				
+			</ul>
+		</nav>
+	</div>
+	<div class="search">
+		<input type="text"placeholder="SEARCH...">
+		
+	</div>
+	<div class="song">
+		<audio></audio>
+	</div>
+	<div class="intro">
+		<h1> MPANDE<br>M BLOG.CO</h1>
+		<div class="music">
+			<div class="vl"></div>
+			<img id="icon" src="play.png" alt="">
+		    <h2>click to hear music</h2> 
+
+		</div>
+		<div class="stats">
+			<div class="user-search">
+				<img src="images-3.jpeg" alt="">
+				<p>40M+users searched</p>
+		</div>
+		<div class="favorites">
+			<img src="images.png">
+			<p>37M+ favorites</p>
+		</div>
+		 
+        <div class="albums">
+        	<img src="">
+        	<p>23M+ albums sold</p>
+        </div>
+		</div>
+
+	</div>
+	<audio id="mysong">
+			<a href="mussic.mp3" type="audio/mp3" download></a>
+		</audio>
+	<script>
+		var mysong = document.getElementById('mysong');
+		var icon = document.getElementById('icon');
+		icon.onclick=function(){
+			if (mysong.paused){
+				mysong.play();
+				icon.src = 'play.png';
+			}else {
+				mysong.pause();
+				icon.src = 'download-3.jpeg';
+			}
+
+		}
+		
+		
+	</script>
+
+</body>
+</html>  

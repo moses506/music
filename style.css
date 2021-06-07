@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-weight: 900;   
+
+}
+body{
+	background: url(wallpaper2you_466572.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.nav-links nav{
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background:rgba(0, 0, 0, 0.7);
+}
+.links{
+	display: flex;
+
+}
+.links li{
+	list-style: none;
+	width: 150px;
+	font-size: 18px; 
+}
+.links li a {
+	color: white;
+	text-decoration: none;
+	position: relative;
+	left: 250%;
+	transition: all .3s;
+
+}
+.links li a:hover {
+	opacity: 8;
+}
+.intro h1 {
+	position: absolute;
+	top: 55%;
+	left: 5%;
+	color: white;
+	font-size: 90px;
+	text-shadow: 3px 3px 15px white;    
+}
+.search{
+	position: absolute;
+	left: 34%;
+	line-height:67px; 
+}
+.music{
+	position: absolute;
+	top: 35%;
+	left: 65%;
+	display: flex;
+	color: white;
+
+
+}
+.music img {
+	height: 45px;
+	box-shadow: 2px 2px 15px white;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 2s;
+}
+.music img:hover {
+	transform: rotate(360deg);
+}
+.music h2 {
+	margin-left: 30px;
+	text-shadow: 2px 2px 15px white;
+}
+.vl {
+	border-left: 6px solid white;
+	box-shadow: 2px 2px 15px white;
+	height: 350px;
+	margin-right: 110px;
+}
+.stats{
+	position: absolute;
+	left: 73%;
+	top: 45%;
+	color: white;
+	font-size: 20px;
+	text-shadow: 2px 2px 15px white;
+}
+.stats img {
+	height: 40px;
+	margin-top: 5px;
+	box-shadow: 2px 2px 15px white;
+}
+.user-search{
+
+	display: flex;
+}
+.stats p{
+	margin-left: 20px;
+	margin-top: 6px
+	
+
+}
+.favorites{
+	display: flex;
+}
+.albums{
+	display: flex;
+}
